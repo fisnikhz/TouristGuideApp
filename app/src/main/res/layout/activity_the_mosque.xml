@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#181818"
+    >
+
+    <TextView
+        android:id="@+id/textViewTedDrewesTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="19dp"
+        android:text="Sinan Pasha Mosque"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageButtonMap"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageViewTedDrewes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="97dp"
+        android:layout_marginRight="97dp"
+        android:layout_marginBottom="13dp"
+        app:layout_constraintBottom_toTopOf="@+id/textViewStuffToDo"
+        app:layout_constraintEnd_toEndOf="@+id/imageButtonMap"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonMap" />
+
+    <TextView
+        android:id="@+id/textViewHighlights"
+        android:layout_width="289dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="23dp"
+        android:text="The Sinan Pasha Mosque is an Ottoman mosque in the city of Prizren, Kosovo.[a] It was built in 1615 by Sofi Sinan Pasha, bey of Budim.[1] The mosque overlooks the main street of Prizren and is a dominant feature in the town's skyline.[2]"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/textViewLink"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewStuffToDo" />
+
+    <TextView
+        android:id="@+id/textViewStuffToDo"
+        android:layout_width="289dp"
+        android:layout_height="45dp"
+
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="11dp"
+        android:text="Some short descriptions about Sinan Pasha Mosque"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textViewHighlights"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewTedDrewes" />
+
+    <TextView
+        android:id="@+id/textViewLink"
+        android:layout_width="195dp"
+        android:layout_height="23dp"
+        android:layout_marginBottom="18dp"
+        android:clickable="true"
+        android:linksClickable="true"
+        android:text="Click here to see the map "
+        android:textColor="#303F8D"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonReturn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewHighlights"
+        tools:text="Clicke here to see the map" />
+
+    <ImageButton
+        android:id="@+id/imageButtonMap"
+        android:layout_width="284dp"
+        android:layout_height="118dp"
+
+        android:layout_marginStart="19dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginRight="19dp"
+        android:background="@drawable/mosque"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewTedDrewes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTedDrewesTitle" />
+
+    <Button
+        android:id="@+id/buttonReturn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:text="Return"
+        app:backgroundTint="#00897B"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewLink" />
+</androidx.constraintlayout.widget.ConstraintLayout>

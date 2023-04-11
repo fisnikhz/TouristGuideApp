@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "437718533642",
+    "firebase_url": "https://prizrentouristguide-default-rtdb.firebaseio.com",
+    "project_id": "prizrentouristguide",
+    "storage_bucket": "prizrentouristguide.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:437718533642:android:9d0807ce3c965f46fac1f3",
+        "android_client_info": {
+          "package_name": "com.example.prizrentouristguide"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "437718533642-l0ch6tmj824qo0tb2scd6rrgmpjbbdmj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJl6TptHZaXGUXj-P0BAh_jDdYGYvs67k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "437718533642-l0ch6tmj824qo0tb2scd6rrgmpjbbdmj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
